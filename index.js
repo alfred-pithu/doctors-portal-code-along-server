@@ -9,7 +9,7 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
 app.use(cors())
 app.use(express.json())
 
-//------------------------------------------------------------------------
+//-------------------------------------------------------------------------
 // ${process.env.DB_USER}
 // ${process.env.DB_PASS}
 
@@ -17,7 +17,6 @@ app.use(express.json())
 
 // const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.v7gqx.mongodb.net/?retryWrites=true&w=majority`
 //------------------------------------------------------------------------
-
 
 const uri = 'mongodb+srv://doctor_admin:MHgVYl5hU7aNKWbm@cluster0.v7gqx.mongodb.net/?retryWrites=true&w=majority'
 
